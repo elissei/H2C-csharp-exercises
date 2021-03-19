@@ -6,8 +6,11 @@ namespace exercise_14
   {
     public static void Main(string[] args)
     {
-      Console.WriteLine("Give me the truth!");
-      // Write your code here:
+            Console.WriteLine("Give me the truth!");
+            string input = Console.ReadLine();
+            bool booleanValue = System.Convert.ToBoolean(input);
+            Console.WriteLine(booleanValue);
+
 
     }
   }
