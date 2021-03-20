@@ -7,7 +7,13 @@ namespace exercise_24
     public static void Main(string[] args)
     {
 
-      // Write your code here:
+            Console.WriteLine("Your speed:");
+            String speed = Console.ReadLine();
+            int spd = Convert.ToInt32(speed);
+            if (spd > 120)
+            {
+                Console.WriteLine("Speeding!");
+            }
       
     }
   }
