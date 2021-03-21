@@ -6,8 +6,14 @@ namespace exercise_46
   {
     public static void Main(string[] args)
     {
-
-      // Write your code here:
+            int num = Convert.ToInt32(Console.ReadLine());
+            while (true)
+            {
+                if (num <= 100)
+                {
+                    Console.WriteLine(num++);
+                }
+            }
 
     }
   }
