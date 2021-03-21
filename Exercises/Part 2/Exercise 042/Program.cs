@@ -10,7 +10,7 @@ namespace exercise_42
             int number2 = Convert.ToInt32(Console.ReadLine());
             int sum = number1 + number2;
             double squareRoot = Math.Sqrt(sum);
-            Console.WriteLine(squareRoot);
+            Console.WriteLine(sum);
     
     }
   }
