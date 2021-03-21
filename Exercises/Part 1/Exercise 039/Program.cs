@@ -23,7 +23,7 @@ namespace exercise_39
 
                  
             }
-            Console.WriteLine("Total amount of negative numbers: " + sum);
+            Console.WriteLine("Total sum of numbers: " + sum);
     }
   }
 }
