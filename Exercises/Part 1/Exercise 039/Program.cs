@@ -6,7 +6,24 @@ namespace exercise_39
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+            int sum = 0;
+            while (true)
+            {
+                Console.WriteLine("Give a number:");
+                string input = Console.ReadLine();
+                int num = Convert.ToInt32(input);
+                if (num == 0)
+                {
+                    break;
+                }
+                else
+                {
+                    sum += num;
+                }
+
+                 
+            }
+            Console.WriteLine("Total amount of negative numbers: " + sum);
     }
   }
 }
