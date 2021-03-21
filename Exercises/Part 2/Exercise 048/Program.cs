@@ -8,7 +8,7 @@ namespace exercise_48
     {
             int sum = 0;
             int counter = 0;
-            int ave = sum / counter;
+            int ave = 0;
             int even = 0;
             int odd = 0;
             Console.WriteLine("Give numbers:"); 
@@ -21,11 +21,12 @@ namespace exercise_48
                 }
                 else if (num % 2 == 0)
                 {
-                    even++;
+                    even += 1;
                 }
                 sum += num;
                 counter++;
                 odd++;
+                ave = sum / counter;
             }
             Console.WriteLine("Thx! Bye!");
             Console.WriteLine("Sum: " + sum);
