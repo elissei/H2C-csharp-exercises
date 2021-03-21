@@ -6,8 +6,11 @@ namespace exercise_45
   {
     public static void Main(string[] args)
     {
-
-      // Write your code here:
+            int num = Convert.ToInt32(Console.ReadLine());
+            for (int x = 0; x < num; x++)
+            {
+                Console.WriteLine(x);
+            }
 
     }
   }
