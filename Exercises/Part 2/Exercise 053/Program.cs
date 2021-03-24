@@ -10,6 +10,7 @@ namespace exercise_53
             int x = Convert.ToInt32(Console.ReadLine());
             int y = Convert.ToInt32(Console.ReadLine());
             Division(x, y);
+            Console.ReadKey();
 
     }
 
