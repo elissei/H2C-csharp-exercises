@@ -8,8 +8,7 @@ namespace exercise_57
     {
       // write your code here
       // remember to include return (at the end)!
-            int sum = number1 + number2 + number3 + number4;
-            return sum;
+            return number1 + number2 + number3 + number4;
     }
 
     public static void Main(String[] args)
