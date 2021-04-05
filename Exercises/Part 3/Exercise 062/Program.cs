@@ -8,6 +8,7 @@ namespace exercise_62
   {
     public static void Main(string[] args)
     {
+      Console.ReadKey();
       List<string> list = new List<string>();
       while (true)
       {
@@ -21,7 +22,8 @@ namespace exercise_62
       }
 
       // BEGIN SOLUTION
-      Console.WriteLine(list[0]);
+      Console.WriteLine(list[2]);
+      Console.ReadKey();
       // END SOLUTION
     }
 

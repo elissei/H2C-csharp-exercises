@@ -8,7 +8,7 @@ namespace exercise_61
     {
             //PrintStars(4);
             //PrintRightTriangle(40);
-            ChristmasTree(40);
+            ChristmasTree(12);
             Console.ReadKey();
 
     }
