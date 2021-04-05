@@ -17,6 +17,14 @@ namespace exercise_71
         }
         list.Add(input);
       }
+      Console.WriteLine("Search for?");
+      int value = Convert.ToInt32(Console.ReadLine());
+      int i = list.IndexOf(value);
+            if (list.Contains(value))
+            {
+                Console.WriteLine(value + " is at index " + i);
+                Console.ReadKey();
+            }
 
     }
   }
