@@ -30,6 +30,7 @@ namespace exercise_69
                 a++;
             }
       Console.ReadKey();
+
     }
   }
 }
