@@ -7,7 +7,6 @@ namespace exercise_68
   {
     public static void Main(string[] args)
     {
-      int x = 0;
       List<int> list = new List<int>();
       while (true)
       {
@@ -18,12 +17,11 @@ namespace exercise_68
         }
         list.Add(input);
       }
-      while(x < list.Count)
-            {                
-                Console.WriteLine(list[x]);
-                x++;                
+      foreach(int number in list)
+            {
+                Console.WriteLine(number);               
             }
-      Console.ReadKey();      
+            Console.ReadKey();
     
     }
   }
