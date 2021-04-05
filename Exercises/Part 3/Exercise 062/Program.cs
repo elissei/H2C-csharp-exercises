@@ -20,7 +20,6 @@ namespace exercise_62
 
         list.Add(input);
       }
-
       // BEGIN SOLUTION
       Console.WriteLine(list[2]);
       Console.ReadKey();

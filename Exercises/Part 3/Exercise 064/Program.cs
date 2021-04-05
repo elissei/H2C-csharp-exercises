@@ -6,10 +6,8 @@ namespace exercise_64
   class Program
   {
     public static void Main(string[] args)
-    {
-     
-           // Modify this program to cause an ArgumentOutOfRangeException 
-
+    {     
+      // Modify this program to cause an ArgumentOutOfRangeException 
       // Thanks to Sairam Gudiseva for the essay!
       List<string> lines = new List<string>();
       lines.Add("Never has a man influenced physics so profoundly as Niels Bohr in the early 1900's");

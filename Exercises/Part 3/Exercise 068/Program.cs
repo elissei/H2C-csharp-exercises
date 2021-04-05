@@ -24,6 +24,7 @@ namespace exercise_68
                 x++;                
             }
       Console.ReadKey();      
+    
     }
   }
 }

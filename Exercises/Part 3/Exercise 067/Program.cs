@@ -19,7 +19,6 @@ namespace exercise_67
       }
       Console.WriteLine(list[0]); Console.WriteLine(list[list.Count - 1]);
       Console.ReadKey();
-
     }
   }
 }
