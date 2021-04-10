@@ -53,7 +53,6 @@ namespace exercise_61
             PrintStars(i + (i - 1));
             i++;
             }
-
             PrintSpaces(height - 2);
             PrintStars(3);
             PrintSpaces(height - 2);
