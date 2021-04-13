@@ -23,16 +23,16 @@ namespace exercise_72
                 int number = list[i];
                 if(smallest > number)
                 {
-                    smallest = number;
-                    
+                    smallest = number;                    
                 }
 
 			}
             Console.WriteLine("Smallest number: " + smallest);
-            int y = list.IndexOf(smallest);
-            Console.WriteLine(y);
-            Console.ReadKey();
-                
+            for (int x = 0; x < list.Count; x++)
+			{
+                if(smallest == list[x]) Console.WriteLine(smallest + " is at index " + x);
+			}
+            Console.ReadKey();  
         
     }
   }
