@@ -10,12 +10,17 @@ namespace exercise_80
       int[] numbers = { 5, 1, 3, 4, 2 };
       int sum = SumOfNumbersInArray(numbers);
       Console.WriteLine(sum);
-
+      Console.ReadKey();
     }
 
     public static int SumOfNumbersInArray(int[] numbers) {
-
-      return 0;
+      
+      int sum = 0;
+      for (int i = 0; i < numbers.Length; i++)
+			{
+                sum = sum + numbers[i];
+			}
+      return sum;
     }
 
   }
