@@ -13,6 +13,7 @@ namespace exercise_105
       statistics.AddNumber(2);
       Console.WriteLine("Count: " + statistics.count);
       Console.WriteLine("Sum: " + statistics.sum);
+      Console.ReadKey();
     }
   }
 }
