@@ -12,7 +12,9 @@ namespace exercise_99
 
       counter.Reset();
       counter.PrintValue();
+      Console.ReadKey();
     }
+        
   }
 }
 
