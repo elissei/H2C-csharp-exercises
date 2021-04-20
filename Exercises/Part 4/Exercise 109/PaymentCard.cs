@@ -27,15 +27,19 @@ namespace exercise_109
         {
             if(this.balance > 0)
             {
-                this.balance -= 2.0
+                this.balance -= 2.0;
             }
         }
 
         public void AddMoney(double amount)
         {
-            if(amount > 0)
+            if((this.balance + amount) <= 150.0 && amount > 0)
             {
                 this.balance += amount;
+            }
+            else
+            {
+                this.balance = 150.0;
             }
         }
     }

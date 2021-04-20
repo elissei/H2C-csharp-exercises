@@ -17,6 +17,8 @@ namespace exercise_109
 
       card.AddMoney(-10);
       Console.WriteLine(card);
+
+      Console.ReadKey();
     }
   }
 }
