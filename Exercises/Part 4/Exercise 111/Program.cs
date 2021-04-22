@@ -23,8 +23,9 @@ namespace exercise_111
                 string id = Console.ReadLine();
                 list.Add(new PersonalInformation(fname, lname, id));
             }
+            Console.WriteLine("");
             foreach(PersonalInformation person in list)
-            {
+            {       
                 Console.WriteLine(person.firstName + " " + person.lastName);
             }
             Console.ReadKey();
