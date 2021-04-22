@@ -12,8 +12,10 @@ namespace exercise_104
 
         public int Multiply(int number)
         {
-            instance = this.multiplier * number;
+            this.instance = this.multiplier * number;
+            multiplier = instance;
             return instance;
+            
         }
     }
 }

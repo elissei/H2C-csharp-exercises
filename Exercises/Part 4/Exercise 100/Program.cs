@@ -21,6 +21,7 @@ namespace exercise_100
           }
 
           mortgage.PrintBalance();
+          Console.ReadKey();
     }
   }
 }

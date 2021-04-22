@@ -11,16 +11,17 @@ namespace exercise_100
         {
             this.balance = initialBalance;
             this.interestRate = initialInterestRate;
+            
         }
 
         public void PrintBalance()
         {
-            Console.WriteLine(this.balance);
+            Console.WriteLine(Convert.ToDouble(this.balance));
         }
 
         public void WaitOneYear()
         {
-            this.balance *= this.interestRate;
+            this.balance = this.balance * this.interestRate;
         }
     }
 

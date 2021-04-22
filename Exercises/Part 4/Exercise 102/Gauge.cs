@@ -7,7 +7,7 @@ namespace exercise_102{
         }
         public void Increase(){
             if (value <= 5){
-                this.value += 1
+                this.value += 1;
             }
         }
         public void Decrease(){

@@ -14,7 +14,7 @@ namespace exercise_97
                 roosterWhistle.Sound();
                 duckWhistle.Sound();        
             
- 
+                Console.ReadKey();
       
             }
       }
