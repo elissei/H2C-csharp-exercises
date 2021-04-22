@@ -17,7 +17,7 @@ namespace exercise_108
 
         public void EatLunch()
         {
-            if(this.balance > 0)
+            if((this.balance - 10.6) >= 0)
             {
                 this.balance -= 10.6;
             }
@@ -27,7 +27,7 @@ namespace exercise_108
         {
             if(this.balance > 0)
             {
-                this.balance -= 2.0
+                this.balance -= 2.0;
             }
         }
     }

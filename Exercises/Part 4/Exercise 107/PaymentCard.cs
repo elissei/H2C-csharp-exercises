@@ -27,7 +27,7 @@ namespace exercise_107
         {
             if(this.balance > 0)
             {
-                this.balance -= 2.0
+                this.balance -= 2.0;
             }
         }
     }

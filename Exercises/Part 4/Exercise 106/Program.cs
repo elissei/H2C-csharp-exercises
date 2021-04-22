@@ -8,6 +8,7 @@ namespace exercise_106
     {
       PaymentCard card = new PaymentCard(50);
       Console.WriteLine(card);
+      Console.ReadKey();
     }
   }
 }
