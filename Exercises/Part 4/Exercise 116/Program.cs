@@ -12,7 +12,6 @@ namespace exercise_116
       string text = File.ReadAllText("data.txt");
       Console.WriteLine(text);
       Console.ReadKey();
-    }
-        
+    }    
   }
 }
