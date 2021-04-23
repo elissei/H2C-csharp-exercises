@@ -8,7 +8,7 @@ namespace exercise_123
     {
       // You can test your code here.
       Counter counter = new Counter();
-      
+      Console.ReadKey();
     }
   }
 }
