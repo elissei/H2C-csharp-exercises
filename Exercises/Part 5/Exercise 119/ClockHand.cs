@@ -1,3 +1,6 @@
+using System;
+using System.IO;
+
 namespace exercise_119
 {
   public class ClockHand

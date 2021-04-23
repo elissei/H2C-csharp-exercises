@@ -13,13 +13,14 @@ namespace exercise_118
 
       // DO NOT TOUCH THE CODE ABOVE!
       // implement reading the file here;
+      string[] names;
       if(file == "names.txt")
             {
-                string[] names = File.ReadAllLines("names.txt");
+                names = File.ReadAllLines("names.txt");
             }
       if(file == "other-names.txt")
             {
-                string[] names = File.ReadAllLines("other-names.txt");
+                names = File.ReadAllLines("other-names.txt");
             }
       // DO NOT TOUCH THE CODE BELOW!
       Console.WriteLine("");
