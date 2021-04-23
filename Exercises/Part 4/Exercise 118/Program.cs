@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 
 namespace exercise_118
 {
@@ -13,7 +12,14 @@ namespace exercise_118
 
       // DO NOT TOUCH THE CODE ABOVE!
       // implement reading the file here;
-      
+      if(file == "names.txt")
+            {
+                string[] lines = File.ReadAllLines("names.txt");
+            }
+      if(file == "other-names.txt")
+            {
+                string[] lines = File.ReadAllLines("other-names.txt");
+            }
 
 
 
@@ -43,4 +49,5 @@ namespace exercise_118
 
     }
   }
+
 }
