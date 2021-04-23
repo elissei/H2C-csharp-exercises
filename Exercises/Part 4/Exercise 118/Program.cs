@@ -10,17 +10,16 @@ namespace exercise_118
       // Ask the user for the file name and print the content of the file
       Console.WriteLine("Name of the file:");
       string file = Console.ReadLine();
-
       // DO NOT TOUCH THE CODE ABOVE!
       // implement reading the file here;
-      string[] names;
+      
       if(file == "names.txt")
             {
-                names = File.ReadAllLines("names.txt");
+                string[] names = File.ReadAllLines("names.txt");
             }
       if(file == "other-names.txt")
             {
-                names = File.ReadAllLines("other-names.txt");
+                string[] names = File.ReadAllLines("other-names.txt");
             }
       // DO NOT TOUCH THE CODE BELOW!
       Console.WriteLine("");
