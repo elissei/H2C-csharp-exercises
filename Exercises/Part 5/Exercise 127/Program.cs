@@ -16,6 +16,7 @@ namespace exercise_127
       
       Person lilo = new Person();
       Console.WriteLine(lilo);
+      Console.ReadKey();
     }
 
   }
