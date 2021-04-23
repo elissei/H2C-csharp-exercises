@@ -23,8 +23,20 @@ namespace exercise_129
     // BEGIN SOLUTION
     public override bool Equals(object compared)
     {
- 
-      return false;
+          if (this == compared)
+          {
+            return true;
+          }
+          if ((compared == null) || !this.GetType().Equals(compared.GetType()))
+          {
+            return false;
+          }
+          else
+          {
+            Song comparedSong = (Song)compared;
+            return this.name.Equals(comparedSong.name);
+          }
+        
     }
     // END SOLUTION
 
