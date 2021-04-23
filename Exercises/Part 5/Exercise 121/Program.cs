@@ -14,7 +14,9 @@ namespace exercise_121
         double target = assistant.TargetHeartRate(percentage);
         Console.WriteLine("Target " + (percentage * 100) + "% of maximum: " + target);
         percentage = percentage + 0.1;
+        
       }
+      Console.ReadKey();
     }
   }
 }
