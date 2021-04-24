@@ -15,19 +15,40 @@ namespace exercise_132
 
     public void Advance()
     {
-      // Do something here
+      this.day++;
+            if(this.day > 30)
+            {
+                this.month++;
+                this.day = 1;
+
+                if(this.month > 12)
+                {
+                    this.year++;
+                    this.month = 1;
+                }
+            }
 
     }
 
     public void Advance(int howManyDays)
     {
-      // Do something here
+      int counter = 0;
+            while(counter < howManyDays)
+            {
+                this.Advance();
+                counter++;
+            }
     }
 
     public SimpleDate AfterNumberOfDays(int days)
     {
-      SimpleDate newDate = new SimpleDate(/* Do something here?*/);
-      // Do something here
+      SimpleDate newDate = new SimpleDate(this.day, this.month, this.year);
+      int counter = 0;
+            while(counter < days)
+            {
+                newDate.Advance();
+                counter++;
+            }
 
       return newDate;
     }
