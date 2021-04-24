@@ -18,8 +18,20 @@ namespace exercise_130
     // BEGIN SOLUTION
     public override bool Equals(object compared)
     {
-
-      return false;
+          if (this == compared)
+          {
+            return true;
+          }          
+          if ((compared == null) || !this.GetType().Equals(compared.GetType()))
+          {
+            return false;
+          }
+          else
+          {
+            Book comparedBook = (Book)compared;
+            return this.name.Equals(comparedBook.name);
+          }
+      
     }
     // END SOLUTION
   }

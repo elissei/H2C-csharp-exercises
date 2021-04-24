@@ -34,7 +34,13 @@ namespace exercise_129
           else
           {
             Song comparedSong = (Song)compared;
-            return this.name.Equals(comparedSong.name);
+            if(this.artist.Equals(comparedSong.artist) &&
+                    this.name.Equals(comparedSong.name) &&
+                    this.durationInSeconds.Equals(comparedSong.durationInSeconds))
+                {
+                    return true;
+                }
+                return false;
           }
         
     }

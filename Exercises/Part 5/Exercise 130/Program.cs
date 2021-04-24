@@ -22,12 +22,19 @@ namespace exercise_130
         int publicationYear = Convert.ToInt32(Console.ReadLine());
         Book book = new Book(name, publicationYear);
 
-        // BEGIN SOLUTION
-        // Add unique books to the list.
-        // Remember to print
-        // "The book is already on the list. Let's not add the same book again."
-        // If the list Contains the book
-
+                // BEGIN SOLUTION
+                // Add unique books to the list.
+                // Remember to print
+                // "The book is already on the list. Let's not add the same book again."
+                // If the list Contains the book
+                if (books.Contains.book)
+                {
+                    Console.WriteLine("The book is already on the list. Let's not add the same book again.");
+                }
+                else
+                {
+                    books.Add(book);
+                }
 
 
 
