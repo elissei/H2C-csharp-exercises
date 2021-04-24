@@ -31,9 +31,7 @@ namespace exercise_131
                 {
                     continue;
                 }
-      // Ask for input as shown in the exercise.
             }
-
       // The end printing is ready, don't touch this
       Console.WriteLine("==Items==");
       foreach (Item item in items)
