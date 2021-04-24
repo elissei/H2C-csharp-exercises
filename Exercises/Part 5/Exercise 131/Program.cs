@@ -8,10 +8,31 @@ namespace exercise_131
     public static void Main(string[] args)
     {
       List<Item> items = new List<Item>();
-
-           
-
+            while (true) 
+            { 
+                Console.WriteLine("Indentifier? (empty will stop):");
+                string identifier = Console.ReadLine();                
+                if(identifier == "")
+                {
+                    break;
+                }
+                Console.WriteLine("Name? (empty will stop):");
+                string name = Console.ReadLine();
+                if(identifier == " ")
+                {
+                    break;
+                }
+                Item item = new Item(identifier, name);
+                if (!(items.Contains(item)))
+                {
+                    items.Add(item);
+                }
+                else
+                {
+                    continue;
+                }
       // Ask for input as shown in the exercise.
+            }
 
       // The end printing is ready, don't touch this
       Console.WriteLine("==Items==");
@@ -19,8 +40,7 @@ namespace exercise_131
       {
         Console.WriteLine(item);
       }
-
+      Console.ReadKey();
     }
-
   }
 }

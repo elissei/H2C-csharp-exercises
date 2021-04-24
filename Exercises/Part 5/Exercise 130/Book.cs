@@ -29,7 +29,12 @@ namespace exercise_130
           else
           {
             Book comparedBook = (Book)compared;
-            return this.name.Equals(comparedBook.name);
+            if(this.name.Equals(comparedBook.name) &&
+                    this.publicationYear.Equals(comparedBook.publicationYear))
+                {
+                    return true;
+                }
+                return false;
           }
       
     }
