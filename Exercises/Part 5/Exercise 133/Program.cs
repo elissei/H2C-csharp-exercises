@@ -33,6 +33,7 @@ namespace exercise_133
 
       lessMoney = lessMoney.Minus(moreMoney);
       Console.WriteLine(lessMoney);
+      Console.ReadKey();
     }
   }
 }
