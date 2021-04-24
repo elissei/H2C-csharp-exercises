@@ -41,8 +41,7 @@ namespace exercise_133
             }
       if(euros < 0)
             {
-                cents = 0;
-                euros = 0;
+                newMoney = null;
                 return newMoney;
             }
       return newMoney;    
